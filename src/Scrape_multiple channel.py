@@ -29,6 +29,15 @@ async def scrape_channel(client, channel_username, writer, media_dir):
 client = TelegramClient('scraping_session', api_id, api_hash)
 
 async def main():
+/*************  ✨ Windsurf Command ⭐  *************/
+    """
+    Asynchronously starts the Telegram client and scrapes data from specified channels.
+
+    This function performs the following actions:
+    1. Starts the Telegram client.
+    2. Creates a directory for saving media files if it doesn't exist.
+
+/*******  cee6ec5e-a227-4c45-b6c0-d3a1b5d658ed  *******/
     await client.start()
     
     # Create a directory for media files
