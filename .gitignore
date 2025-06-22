@@ -5,3 +5,4 @@
 #ignnore the .venv folder
 /.venv/
 # Ignore the .env file
+/data
