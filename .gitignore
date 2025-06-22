@@ -1,4 +1,7 @@
-.venv
-/Data
-/data
-/data.csv
+# Ignore the data directory
+# This directory contains all the data files used by the application
+# ignore the data folder in the root directory
+/data/
+#ignnore the .venv folder
+/.venv/
+# Ignore the .env file
